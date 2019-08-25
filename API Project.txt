@@ -1,0 +1,137 @@
+Feature:  Schedule Page
+	As a coach I want to view, change, add, and delete opponents, dates, and times of the current yearly schedule
+
+Scenario:  Schedule page inquiry
+
+Given:  The schdedule page is displayed
+
+When:  The user searches for "My schedule"
+
+Then:  Coaches schedule is displayed with opponents, dates, and times
+
+
+Scenario:  User searches for schedule to modify
+
+Given:  The current yearly team schedule is displayed
+
+When:  The coach searches for "Opponent A"
+
+Then:  The "Opponent A" schedule page displays
+
+
+Scenario: Reschedule date/time for current opponent
+ 
+Given:  The "Opponent A" schedule page is displayed
+
+When:  The date/time of the game is changed
+
+Then:  The schedule updates to show the new date/time for "Opponent A"
+
+
+Scenario:  Remove opponent from schedule
+
+Given:  The "Opponent A" schedule page is displayed
+
+When:  "Opponent A" is removed from the schedule
+
+Then:  The schedule updates to not show "Opponent A"
+
+
+Scenario:  Add opponent to the schedule
+
+Given:  The current yearly team schedule is displayed
+
+When:  "Opponent A" is added to the schedule
+
+Then:  The schedule updates to show "Opponent A"
+
+
+
+
+
+
+
+Scenario: 
+ 
+Given:  
+
+When:  
+
+Then:  
+
+
+Scenario: 
+ 
+Given:  
+
+When:  
+
+Then:  
+
+Scenario: 
+ 
+Given:  
+
+When:  
+
+Then:  
+
+
+Scenario: 
+ 
+Given:  
+
+When:  
+
+Then:  
+
+
+Scenario: 
+ 
+Given:  
+
+When:  
+
+Then:  
+
+
+Scenario: 
+ 
+Given:  
+
+When:  
+
+Then:  
+
+Scenario: 
+ 
+Given:  
+
+When:  
+
+Then:  
+
+Scenario: 
+ 
+Given:  
+
+When:  
+
+Then:  
+
+Scenario: 
+ 
+Given:  
+
+When:  
+
+Scenario: 
+ 
+Given:  
+
+When:  
+
+Then:  
+
+Then:  
+
